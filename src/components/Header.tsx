@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Language, Theme } from '../types';
-import { translations } from '../constants/translations';
+import { translations } from '../../constants/translations';
 import { SunIcon, MoonIcon } from './Icons';
 import { Link, animateScroll as scroll } from 'react-scroll';
 

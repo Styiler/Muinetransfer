@@ -1,6 +1,6 @@
 import React, { useState, FormEvent } from 'react';
 import { Language } from '../types';
-import { translations } from '../constants/translations';
+import { translations } from '../../constants/translations';
 import { CloseIcon, TelegramIcon } from './Icons';
 
 interface ContactModalProps {

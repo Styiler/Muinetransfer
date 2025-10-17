@@ -1,6 +1,6 @@
 import React from 'react';
 import { Language } from '../types';
-import { translations } from '../constants/translations';
+import { translations } from '../../constants/translations';
 
 interface FooterProps {
   language: Language;
