@@ -5,17 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Victor Tour Mui Ne</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      // Add this configuration script BEFORE the main Tailwind script is loaded.
-      // This tells Tailwind to use the 'class' strategy for dark mode.
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {}
-        }
-      }
-    </script>
+    
     <script>
       // Apply theme from local storage before initial render to prevent flash. Defaults to light.
       if (localStorage.theme === 'dark') {
@@ -81,10 +71,12 @@
         }
       }
     </script>
-    <link rel="stylesheet" href="index.css">
+    
+    <!-- Строка для стилей здесь больше не нужна, так как мы импортируем их в index.tsx -->
+
   </head>
   <body class="transition-colors duration-300 antialiased">
     <div id="root"></div>
-    <script type="module" src="index.tsx"></script>
+    <script type="module" src="src/index.tsx"></script>
   </body>
 </html>
