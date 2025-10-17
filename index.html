@@ -1,21 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF--8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Victor Tour Mui Ne</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      // Add this configuration script BEFORE the main Tailwind script is loaded.
-      // This tells Tailwind to use the 'class' strategy for dark mode.
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {}
-        }
-      }
-    </script>
+    
     <script>
       // Apply theme from local storage before initial render to prevent flash. Defaults to light.
       if (localStorage.theme === 'dark') {
@@ -72,19 +62,22 @@
       }
     </style>
 
-<link rel="stylesheet" href="/index.css">
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react-scroll": "https://aistudiocdn.com/react-scroll@^1.9.0"
-  }
-}
-</script>
-  <script type="module" crossorigin src="/assets/index-FrnvLPmX.js"></script>
-</head>
+    
+    <!-- Строка для стилей здесь больше не нужна, так как мы импортируем их в index.tsx -->
+
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://aistudiocdn.com/react@^19.2.0",
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+          "react/": "https://aistudiocdn.com/react@^19.2.0/",
+          "react-scroll": "https://aistudiocdn.com/react-scroll@^1.9.0"
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-D3w5chb9.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-PkFDaG9b.css">
+  </head>
   <body class="transition-colors duration-300 antialiased">
     <div id="root"></div>
   </body>
