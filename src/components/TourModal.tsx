@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Language, Tour } from '../types';
-import { translations } from '../../constants/translations';
+import { translations } from '../constants/translations';
 import { CloseIcon, CheckCircleIcon, ClockIcon, TicketIcon, TelegramIcon } from './Icons';
 
 interface TourModalProps {

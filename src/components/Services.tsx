@@ -1,8 +1,8 @@
 import React from 'react';
 import { Language } from '../types';
-import { translations } from '../../constants/translations';
+import { translations } from '../constants/translations';
 import { CarIcon, PalmTreeIcon, KeyIcon, HomeIcon } from './Icons';
-import { useScrollAnimation } from '../../hooks/useScrollAnimation';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 interface ServicesProps {
   language: Language;

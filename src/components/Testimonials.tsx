@@ -1,7 +1,7 @@
 import React from 'react';
 import { Language } from '../types';
-import { translations } from '../../constants/translations';
-import { useScrollAnimation } from '../../hooks/useScrollAnimation';
+import { translations } from '../constants/translations';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 interface TestimonialsProps {
   language: Language;

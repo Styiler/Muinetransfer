@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Language } from '../types';
-import { translations } from '../../constants/translations';
+import { translations } from '../constants/translations';
 import { CloseIcon, CheckCircleIcon, WhatsAppIcon } from './Icons';
 
 interface AboutModalProps {

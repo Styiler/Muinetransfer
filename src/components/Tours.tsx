@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { Language, Tour } from '../types';
-import { translations } from '../../constants/translations';
-import { useScrollAnimation } from '../../hooks/useScrollAnimation';
+import { translations } from '../constants/translations';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 interface ToursProps {
   language: Language;
